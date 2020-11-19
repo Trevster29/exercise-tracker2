@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div class="container">
+            <h1>Exercise tracker</h1>
+                <form action="/api/exercise/new-user" method="post">
+                    <h2>Create User here</h2>
+                    <p><code>POST new-user</code></p>
+                    <input id="name" type="text" name="username" placeholder="username">
+                    <input type="submit" value="submit">
+                </form>
+                <form action="/api/exercise/add" method="post">
+                    <h3>Add your exercise here</h3>
+                    <p><code>POST add</code></p>
+                    <input id="uid" type="text" name="userId" placeholder="userId">
+                    <input id="desc" type="text" name="description" placeholder="description">
+                    <input id="dur" type="text" name="duration" placeholder="duartion of minutes">
+                </form>
+        </div>
+    </body>
+</html>
